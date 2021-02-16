@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapp-service
+  labels:
+    app: webapp-service
+spec:
+  ports:
+    - name: "webapp-service"
+      port: 80
+  selector:
+    app: web
