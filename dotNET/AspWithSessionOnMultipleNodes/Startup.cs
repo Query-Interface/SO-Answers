@@ -58,7 +58,6 @@ namespace app
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
 
             app.UseRouting();
 
